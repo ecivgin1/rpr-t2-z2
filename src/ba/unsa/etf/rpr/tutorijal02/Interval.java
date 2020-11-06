@@ -37,4 +37,27 @@ public class Interval {
         else
             return Parametar > Pocetna && Parametar < Krajnja;
     }
+
+    public Interval intersect(Interval temp) {
+        return presijecanje(this, temp);
+    }
+
+    public static Interval intersect(Interval prvi, Interval drugi) {
+        return presijecanje(prvi, drugi);
+    }
+
+    public static Interval presijecanje(Interval prvi, Interval drugi) {
+        if (prvi.Pocetna < drugi.Pocetna) {
+            if (prvi.Krajnja < drugi.Krajnja)
+                return new Interval(drugi.Pocetna, prvi.Krajnja, drugi.PripadaP, prvi.PripadaK);
+            else
+                return new Interval(drugi.Pocetna, drugi.Krajnja, drugi.PripadaP, drugi.PripadaK);
+        }
+        else {
+            if (prvi.Krajnja > drugi.Krajnja)
+                return new Interval(prvi.Pocetna, drugi.Krajnja, prvi.PripadaP, drugi.PripadaK);
+            else
+                return new Interval(prvi.Pocetna, prvi.Krajnja, prvi.PripadaP, prvi.PripadaK);
+        }
+    }
 }

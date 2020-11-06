@@ -20,15 +20,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e4a52066-c056-4fa5-b74c-f87b5213e99d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/tutorijal02/IntervalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/tutorijal02/IntervalTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/tutorijal02/Interval.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/tutorijal02/Interval.java" afterDir="false" />
     </list>
+    <list id="5bd73c9f-c179-45c2-b0db-becd3317514e" name="Uradjeno preklapanje metoda toString i equals, gotov zadatak." comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="6919b8ca03faf8595f90ef81aa1d1409fa335226" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1jvNYrNPoHtg0yInaMyt1UXcsON" />
@@ -77,6 +82,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.IntervalTest" />
+        <item itemvalue="JUnit.IntervalTest" />
+        <item itemvalue="JUnit.IntervalTest" />
       </list>
     </recent_temporary>
   </component>
@@ -111,6 +118,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="525" y="217" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.325.1280.700/0.0.1920.1050@0.0.1920.1050" timestamp="1604680854627" />
+    <state x="807" y="438" key="VCS.ChangelistChooser" timestamp="1604682159327">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="807" y="438" key="VCS.ChangelistChooser/-1920.325.1280.700/0.0.1920.1050@0.0.1920.1050" timestamp="1604682159327" />
     <state x="92" y="92" width="1736" height="866" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1604681083894">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
