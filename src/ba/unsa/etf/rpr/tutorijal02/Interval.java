@@ -60,4 +60,31 @@ public class Interval {
                 return new Interval(prvi.Pocetna, prvi.Krajnja, prvi.PripadaP, prvi.PripadaK);
         }
     }
+
+    @Override
+    public String toString() {
+        String temp = "";
+        if (this.Pocetna == this.Krajnja)
+            return temp + "()";
+
+        if (this.PripadaP)
+            temp = temp + "[";
+        else
+            temp = temp + "(";
+        temp = temp + this.Pocetna + "," + this.Krajnja;
+        if (this.PripadaK)
+            temp = temp + "]";
+        else
+            temp = temp + ")";
+        return temp;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj instanceof Interval) {
+            Interval temp = (Interval) obj;
+            return temp.Pocetna == this.Pocetna && temp.Krajnja == this.Krajnja && temp.PripadaP == this.PripadaP && temp.PripadaK == this.PripadaK;
+        }
+        return false;
+    }
 }
